@@ -1,11 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donation</title>
 </head>
-<body>
-    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+<body >
+    <header class="flex justify-around bg-base-300 p-10    fixed top-0 left-0 w-full bg-base-300/70 transition-all duration-300 z-50 ">
+        <h3 class="btn w-25 font-extrabold bg-[#b0ee5f] text-black border-none hover:bg-[#a4e04e]"><a href="blog.html">Blog</a></h3>
+
+        <div class="flex items-center gap-2    ">
+            </span><img src="assets/logo.png" class="w-10 h-10 " alt=""></span>
+            <span class="font-extrabold ">Donate Bangladesh</span>
+        </div>
+        <div class="flex items-center gap-2  rounded-lg  ">
+            <span><img src="assets/coin.png" alt=""></span>
+            <span class="font-extrabold text-gray-700">5500 BDT</span>
+        </div>
+    </header>
+    <main class="flex justify-center align-middle flex-col p-30 gap-10  ">
+        <div class=" flex justify-center mt-10 gap-5">
+            <button class="btn font-bold w-30 bg-[#b0ee5f] text-black border-none hover:bg-[#a4e04e]">
+                Donate Now
+            </button>
+            <button class="btn font-semibold w-25 bg-white text-gray-700 border border-gray-300 hover:bg-gray-100">
+                History
+            </button>
+        </div>
+        <div
+            class="flex justify-center gap-10 bg-[rgba(255,255,255,1)] p-5 rounded-2xl border border-[rgba(17,17,17,0.1)] ">
+            <img src="assets/noakhali.png" alt="">
+
+            <div class="">
+
+                <div class="flex items-center gap-2 bg-base-300 w-40 py-2.5 px-4 rounded-lg mb-3 ">
+                    <span><img src="assets/coin.png" alt=""></span>
+                    <span class="font-semibold text-gray-700">2400 BDT</span>
+                </div>
+
+                <h2 class="mb-3">Donate for Flood at Noakhali, Bangladesh</h2>
+                <p class="mb-3">The recent floods in Noakhali have caused significant damage to
+                    homes infrastructure. Your donation will help provide essential
+                    supplies and to those affected by this disaster. Every contribution,
+                    big or small, makes difference. Please join us in supporting the relief
+                    efforts and making a positive impact on the lives of those in need.
+                </p>
+                <input id="input-pin-Number" type="password" class="input w-120" placeholder="Write Donate Amount" />
+                <br>
+
+                <button class="btn mt-3 w-120 font-bold bg-[#b0ee5f] text-black border-none hover:bg-[#a4e04e]">
+                    Donate Now
+                </button>
+            </div>
+
+        </div>
+        <div
+            class="flex justify-center gap-10  bg-[rgba(255,255,255,1) ]  p-5 rounded-2xl border border-[rgba(17,17,17,0.1)]">
+            <img src="assets/feni.png" alt="">
+            <div>
+                <div class="flex items-center gap-2 mb-3  bg-base-300 w-40 py-2.5 px-4 rounded-lg ">
+                    <span class=" "><img src="assets/coin.png" alt=""></span>
+                    <span class="font-semibold text-gray-700">2400 BDT</span>
+                </div>
+                <h2 class="mb-3">Donate for Flood Relief in Feni,Bangladesh</h2>
+                <p class="mb-3">The recent floods in Feni have devastated local communities, leading
+                    to severe disruption and loss. Your generous donation will help
+                    provide immediate aid, including food, clean water, and medical
+                    supplies, to those affected by this calamity. Together, we can offer
+                    crucial support and help rebuild lives in the aftermath of this disaster.
+                    Every contribution counts towards making a real difference. Please
+                    consider donating today to assist those in urgent need.
+                </p>
+                <input id="input-pin-Number" type="password" class="input w-120" placeholder="Write Donate Amount" />
+                <br>
+
+                <button class="btn mt-3 w-120 font-bold bg-[#b0ee5f] text-black border-none hover:bg-[#a4e04e]">
+                    Donate Now
+                </button>
+            </div>
+        </div>
+        <div
+            class="flex justify-center gap-10  bg-[rgba(255,255,255,1)]  p-5 rounded-2xl border border-[rgba(17,17,17,0.1)]">
+            <img src="assets/quota-protest.png" alt="">
+            <div>
+                <div class="flex items-center gap-2 mb-3  bg-base-300 w-40 py-2.5 px-4 rounded-lg ">
+                    <span class=" "><img src="assets/coin.png" alt=""></span>
+                    <span class="font-semibold text-gray-700">2400 BDT</span>
+                </div>
+                <h2 class="mb-3">Aid for Injured in the Quota Movement</h2>
+                <p class="mb-3">The recent Quota movement has resulted in numerous injuries and
+                    significant hardship for many individuals. Your support is crucial in
+                    providing medical assistance, rehabilitation, and necessary supplies
+                    to those affected. By contributing, you help ensure that injured
+                    ndividuals receive the care and support they need during this
+                    challenging time. Every donation plays a vital role in alleviating their
+                    suffering and aiding in their recovery. Please consider making a
+                    donation to support these brave individuals in their time of need.
+                </p>
+                <input id="input-pin-Number" type="password" class="input w-120" placeholder="Write Donate Amount" />
+                <br>
+
+                <button class="btn mt-3 w-120 font-bold bg-[#b0ee5f] text-black border-none hover:bg-[#a4e04e]">
+                    Donate Now
+                </button>
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer class="footer sm:footer-horizontal bg-base-300 text-base-content p-10">
+
+
+
+
+    </footer>
 </body>
+<script src="js/add.js"></script>
+<script src="js/addmoney.js"></script>
+
 </html>

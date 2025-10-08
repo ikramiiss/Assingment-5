@@ -1,1 +1,3 @@
-console.log('I eat rice.')
+document.getElementById('btn-donate-noakhali').addEventListener('click', function(){
+    
+})

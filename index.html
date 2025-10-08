@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donation</title>
+    <link rel="stylesheet" href="styles/Respone.css">
 </head>
 <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -22,7 +23,7 @@
             <span class="font-extrabold text-gray-700">5500 BDT</span>
         </div>
     </header>
-    <main class="flex justify-center align-middle flex-col p-30 gap-10  ">
+    <main id="noakhali-div" class="flex justify-center align-middle flex-col p-30 gap-10  ">
         <div class=" flex justify-center mt-10 gap-5">
             <button class="btn font-bold w-30 bg-[#b0ee5f] text-black border-none hover:bg-[#a4e04e]">
                 Donate Now
@@ -31,15 +32,16 @@
                 History
             </button>
         </div>
-        <div
+        <div id="noakhali-flood"
             class="flex justify-center gap-10 bg-[rgba(255,255,255,1)] p-5 rounded-2xl border border-[rgba(17,17,17,0.1)] ">
+            
             <img src="assets/noakhali.png" alt="">
 
-            <div class="">
+            <div >
 
                 <div class="flex items-center gap-2 bg-base-300 w-40 py-2.5 px-4 rounded-lg mb-3 ">
                     <span><img src="assets/coin.png" alt=""></span>
-                    <span class="font-semibold text-gray-700">2400 BDT</span>
+                    <span id="add-money-noakhali" class="font-semibold text-gray-700">2400 BDT</span>
                 </div>
 
                 <h2 class="mb-3">Donate for Flood at Noakhali, Bangladesh</h2>
@@ -52,7 +54,7 @@
                 <input id="input-pin-Number" type="password" class="input w-120" placeholder="Write Donate Amount" />
                 <br>
 
-                <button class="btn mt-3 w-120 font-bold bg-[#b0ee5f] text-black border-none hover:bg-[#a4e04e]">
+                <button id="btn-donate-noakhali" class="btn mt-3 w-120 font-bold bg-[#b0ee5f] text-black border-none hover:bg-[#a4e04e]">
                     Donate Now
                 </button>
             </div>
@@ -119,8 +121,9 @@
 
 
     </footer>
-</body>
-<script src="js/add.js"></script>
+    <script src="js/add.js"></script>
 <script src="js/addmoney.js"></script>
+</body>
+
 
 </html>

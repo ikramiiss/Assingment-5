@@ -20,7 +20,8 @@
         </div>
         <div class="flex items-center gap-2  rounded-lg  ">
             <span><img src="assets/coin.png" alt=""></span>
-            <span class="font-extrabold text-gray-700">5500 BDT</span>
+            <span id="cashOut-main-amount" class="font-extrabold text-gray-700">5500 </span>
+            <b>BDT</b>
         </div>
     </header>
     <main id="noakhali-div" class="flex justify-center align-middle flex-col p-30 gap-10  ">
@@ -41,7 +42,8 @@
 
                 <div class="flex items-center gap-2 bg-base-300 w-40 py-2.5 px-4 rounded-lg mb-3 ">
                     <span><img src="assets/coin.png" alt=""></span>
-                    <span id="add-money-noakhali" class="font-semibold text-gray-700">2400 BDT</span>
+                    <span id="add-money-noakhali" class="font-semibold text-gray-700">2400 </span>
+                    <b>BDT</b>
                 </div>
 
                 <h2 class="mb-3">Donate for Flood at Noakhali, Bangladesh</h2>
@@ -51,7 +53,7 @@
                     big or small, makes difference. Please join us in supporting the relief
                     efforts and making a positive impact on the lives of those in need.
                 </p>
-                <input id="input-pin-Number" type="password" class="input w-120" placeholder="Write Donate Amount" />
+                <input id="input-amount-Number" type="text" class="input w-120" placeholder="Write Donate Amount" />
                 <br>
 
                 <button id="btn-donate-noakhali" class="btn mt-3 w-120 font-bold bg-[#b0ee5f] text-black border-none hover:bg-[#a4e04e]">
@@ -66,7 +68,7 @@
             <div>
                 <div class="flex items-center gap-2 mb-3  bg-base-300 w-40 py-2.5 px-4 rounded-lg ">
                     <span class=" "><img src="assets/coin.png" alt=""></span>
-                    <span class="font-semibold text-gray-700">2400 BDT</span>
+                    <span id="add-money-feni" class="font-semibold text-gray-700">2400 BDT</span>
                 </div>
                 <h2 class="mb-3">Donate for Flood Relief in Feni,Bangladesh</h2>
                 <p class="mb-3">The recent floods in Feni have devastated local communities, leading
@@ -77,10 +79,10 @@
                     Every contribution counts towards making a real difference. Please
                     consider donating today to assist those in urgent need.
                 </p>
-                <input id="input-pin-Number" type="password" class="input w-120" placeholder="Write Donate Amount" />
+                <input id="input-fenimoney-Number" type="text" class="input w-120" placeholder="Write Donate Amount" />
                 <br>
 
-                <button class="btn mt-3 w-120 font-bold bg-[#b0ee5f] text-black border-none hover:bg-[#a4e04e]">
+                <button id="btn-donate-feni" class="btn mt-3 w-120 font-bold bg-[#b0ee5f] text-black border-none hover:bg-[#a4e04e]">
                     Donate Now
                 </button>
             </div>
@@ -91,7 +93,7 @@
             <div>
                 <div class="flex items-center gap-2 mb-3  bg-base-300 w-40 py-2.5 px-4 rounded-lg ">
                     <span class=" "><img src="assets/coin.png" alt=""></span>
-                    <span class="font-semibold text-gray-700">2400 BDT</span>
+                    <span id="add-money-quota" class="font-semibold text-gray-700">2400 BDT</span>
                 </div>
                 <h2 class="mb-3">Aid for Injured in the Quota Movement</h2>
                 <p class="mb-3">The recent Quota movement has resulted in numerous injuries and
@@ -103,10 +105,10 @@
                     suffering and aiding in their recovery. Please consider making a
                     donation to support these brave individuals in their time of need.
                 </p>
-                <input id="input-pin-Number" type="password" class="input w-120" placeholder="Write Donate Amount" />
+                <input id="input-quota-Number" type="text" class="input w-120" placeholder="Write Donate Amount" />
                 <br>
 
-                <button class="btn mt-3 w-120 font-bold bg-[#b0ee5f] text-black border-none hover:bg-[#a4e04e]">
+                <button id="btn-quota" class="btn mt-3 w-120 font-bold bg-[#b0ee5f] text-black border-none hover:bg-[#a4e04e]">
                     Donate Now
                 </button>
             </div>
@@ -121,8 +123,11 @@
 
 
     </footer>
-    <script src="js/add.js"></script>
+    <script src="js/quota.js"></script>
+    <script src="js/Feni.js"></script>
+   <script src="js/utilities.js"></script>
 <script src="js/addmoney.js"></script>
+ <script src="js/add.js"></script>
 </body>
 
 

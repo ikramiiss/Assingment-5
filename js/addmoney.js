@@ -13,8 +13,16 @@ document.getElementById('btn-donate-noakhali').addEventListener('click', functio
         document.getElementById('add-money-noakhali').innerText = newBalance;
         document.getElementById('cashOut-main-amount').innerText = newMainBalance;
 
-
         document.getElementById('input-amount-Number').value = '';
+
+
+        // const p = document.createElement('p');
+        // p.classList.add('bg-base-100 border-base-300')
+        // p.classList.add('date')
+        // p.innerHTML = `<p>${addMoney}Taka is Donated for famine-2024 at Feni, Bangladesh <p>
+        // `;
+         
+        // document.getElementById('btn-history').appendChild(p);
 
     }
     else {

@@ -3,7 +3,7 @@ document.getElementById('btn-donate-noakhali').addEventListener('click', functio
 
     const addMoney = getInputFieldValueById('input-amount-Number');
     const mainAmount = getTextFieldValueById('cashOut-main-amount');
-    
+
     if ((mainAmount > addMoney) && !(isNaN(addMoney) || addMoney < 0)) {
         const newMainBalance = mainAmount - addMoney;
 
@@ -15,49 +15,41 @@ document.getElementById('btn-donate-noakhali').addEventListener('click', functio
 
         document.getElementById('input-amount-Number').value = '';
 
+        alert('successfully  added ');
 
-        // const p = document.createElement('p');
-        // p.classList.add('bg-base-100 border-base-300')
-        // p.classList.add('date')
-        // p.innerHTML = `<p>${addMoney}Taka is Donated for famine-2024 at Feni, Bangladesh <p>
-        // `;
-         
-        // document.getElementById('btn-history').appendChild(p);
+
+
+
+
+
+        const div = document.createElement('div');
+        div.classList.add(
+            "bg-white",
+            "border",
+            "border-gray-300",
+            "rounded-lg",
+            "p-4",
+            "mb-4",
+            "shadow-sm"
+        );
+
+        div.innerHTML = `
+  <p class="font-semibold text-lg text-gray-800">${addMoney} Taka is Donate for Flood at Noakhali, Bangladesh</p>
+  <p class="text-sm text-gray-500">Date: ${new Date().toString()}</p>
+`;
+
+        document.getElementById('history-section').appendChild(div);
+
+
+
+
 
     }
     else {
         alert('Invalid donation amount or insufficient balance');
-        
+
 
     }
 
 })
-
-// document.getElementById('btn-donate-noakhali').addEventListener('click', function (event) {
-//     event.preventDefault();
-
-//     const addMoney = getInputFieldValueById('input-amount-Number');
-//     const mainAmount = getTextFieldValueById('cashOut-main-amount');
-
-//     // 🛑 Convert values to numbers
-//     const donateAmount = parseFloat(addMoney);
-//     const totalBalance = parseFloat(mainAmount);
-
-//     // ✅ Check if the user has enough money
-//     if (totalBalance >= donateAmount) {
-//         const newMainBalance = totalBalance - donateAmount;
-
-//         const balance = getTextFieldValueById('add-money-noakhali');
-//         const currentNoakhaliBalance = parseFloat(balance);
-
-//         const newBalance = currentNoakhaliBalance + donateAmount;
-
-//         // ✅ Update both balances
-//         document.getElementById('cashOut-main-amount').innerText = newMainBalance;
-//         document.getElementById('add-money-noakhali').innerText = newBalance;
-
-//     } else {
-//         alert('You do not have enough money to donate');
-//     }
-// });
 

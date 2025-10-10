@@ -17,11 +17,7 @@
     });
 
 
-    // function showSectionById(id){
-    //   document.getElementById('').classList.add('"backdrop-blur-md",  "shadow-md"');
-
-    //   document.getElementById(id).classList.remove('"backdrop-blur-md",  "shadow-md"')
-    // }
+   
 
 
 

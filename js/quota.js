@@ -16,6 +16,28 @@ document.getElementById('btn-quota').addEventListener('click', function (event) 
 
         document.getElementById('input-quota-Number').value = '';
 
+        alert('successfully  added ');
+
+        
+
+        const div = document.createElement('div');
+div.classList.add(
+  "bg-white",
+  "border",
+  "border-gray-300",
+  "rounded-lg",
+  "p-4",
+  "mb-4",
+  "shadow-sm"
+);
+
+div.innerHTML = `
+  <p class="font-semibold text-lg text-gray-800">${addMoney} Taka is Aid for Injured in the Quota Movement</p>
+  <p class="text-sm text-gray-500">Date: ${new Date().toString()}</p>
+`;
+
+document.getElementById('history-section').appendChild(div);
+
     }
     else {
         alert('Invalid donation amount or insufficient balance');

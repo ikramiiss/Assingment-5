@@ -1,0 +1,31 @@
+
+
+@media screen and (max-width:576px) {
+   .floods{
+    display: flex;
+    flex-direction: column;
+    margin-left: -70px;
+    /* margin-right: 20px; */
+    width: 450px;
+    
+   }
+   .inputs{
+    width: 400px;
+   }
+
+   .btns{
+    width: 400px;
+   }
+    
+}
+@media  screen and (min-width:576px) and (max-width:992px) {
+    /* .container{
+        grid-template-areas: 
+        "header header"
+        "nav    nav"
+        "sidebar main"
+        "advertise footer";
+
+    }
+     */
+}

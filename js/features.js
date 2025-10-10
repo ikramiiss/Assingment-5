@@ -1,6 +1,6 @@
 
 
-document.getElementById('donate-buttons').addEventListener('click' , function(){
+document.getElementById('btn-donate-main').addEventListener('click' , function(){
     showSectionById('main-div');
 })
 
